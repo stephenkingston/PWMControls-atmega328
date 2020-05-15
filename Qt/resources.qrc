@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/img"/>
+    <qresource prefix="/">
+        <file>images/copyleft.png</file>
+        <file>images/data-storage.png</file>
+        <file>images/floppy-disk.png</file>
+        <file>images/icon.ico</file>
+        <file>images/icon.png</file>
+        <file>images/internet.png</file>
+        <file>images/round.png</file>
+    </qresource>
+</RCC>

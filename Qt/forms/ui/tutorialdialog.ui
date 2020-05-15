@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tutorialDialog</class>
+ <widget class="QDialog" name="tutorialDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>742</width>
+    <height>243</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>742</width>
+    <height>243</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>742</width>
+    <height>243</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Usage Instructions</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>711</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1000</width>
+     <height>1000</height>
+    </size>
+   </property>
+   <property name="title">
+    <string>Usage Instructions</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>661</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1. This app works by sending PWM configuration instructions to 
+firmware on a microcontroller. 
+2.The Hardware PWM uses Timer 0 to set the PWM on pin OC0A 
+(Digital pin 6 on the Arduino Uno)
+3.The software PWM uses the 16-bit Timer 1 and two compare match interrupts to 
+generate the required PWM.
+4. Configuration settings can be save using File-&gt;Save with the extension .pwms.
+5. Configuration settings can be loaded onto the application using File-&gt;Load.</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
