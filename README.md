@@ -6,9 +6,9 @@ Configuration properties are sent via serial in 6-byte packets which enable PWM 
 
 ## Screenshots
 
-![Circuit](img/app.png)
+![Circuit](img/app.PNG)
 
-![Circuit](img/app2.png)
+![Circuit](img/app2.PNG)
 
 
 
